@@ -10,7 +10,7 @@ function App() {
       </nav>
       <div id="about" class="container">
         <h1>bddy</h1>
-        <p>Full-Stack Developer // Efficient in Typescript, Javascript, HTML, CSS, and many more.</p>
+        <p>Full-Stack Developer // Proficient in Typescript, Javascript, HTML, CSS, and many more.</p>
         {/* <span style={{
           padding: "5px",
           fontWeight: "200"
