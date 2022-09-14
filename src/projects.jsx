@@ -1,7 +1,7 @@
 import Head from "./components/head";
 import Project from "./components/project";
 
-function App() {
+function projects() {
   return (
     <>
       <Head />
@@ -12,12 +12,11 @@ function App() {
 				</div>
 			</nav>
 
-			<div class="home">
-				<div class="title">bddy</div>
-				<p>Full-Stack Developer // Proficient in Typescript, Javascript, HTML, CSS, and many more</p>
-			</div>
+			<main>
+
+			</main>
     </>
   );
 }
 
-export default App;
+export default projects;
