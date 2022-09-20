@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   padding: 0;
   margin: 0;
@@ -7,101 +11,14 @@
 }
 
 html, body, #root {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)), url('../../public/bg.jpg');
+/*   background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)), url('../../public/bg.jpg');
   background-size: cover;
   backdrop-filter: blur(5px);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 100%;
   width: 100%;
   color: #fff;
-  overflow: auto;
-  scroll-behavior: smooth;
+/*   overflow: auto;
+  scroll-behavior: smooth; */
 /* 	padding: 10px 0px; */
-}
-nav {
-	padding: 10px 102px;
-	height: 77px;
-}
-
-.home {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 0px 102px;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0px 102px;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-}
-
-.project {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-}
-
-.project .title {
-	font-weight: 700;
-	font-size: 20px;
-}
-
-.home .title {
-	font-weight: 700;
-	font-size: 32px;
-	padding: 15px 10px;
-	border-bottom: 7px solid #56824F;
-	margin: 5px;
-}
-
-@media (max-width: 1000px) {
-	nav {
-		padding: 10px 10px;
-	}
-	main {
-		padding: 0px 10px;
-	}
-}
-
-nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 10px;
-}
-
-nav .left {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 10px;
-}
-
-nav .right {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-end; 
-	gap: 10px;
-}
-
-nav .left img {
-	width: 42px;
-	height: 42px;
-	border-radius: 50%;
-}
-
-nav .left span {
-	font-weight: 700;
-	font-size: 20px;
 }
