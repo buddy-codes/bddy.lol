@@ -1,7 +1,13 @@
 import Head from "./components/head";
-
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [dev,setDev] = useState();
+  useEffect(() => {
+    if (location.href.includes("dev")) {
+      setDev(true);
+    }
+  }, []);
   return (
     <>
       <Head />
@@ -36,7 +42,7 @@ function App() {
       </div>
     </div>
   </div>
-  <div class="w-full flex justify-end text-zinc-700">v3</div>
+  <div class="w-full flex justify-end text-zinc-700">v3 {dev ? "(dev)" : "(main)"}</div>
 </div>
 
 
