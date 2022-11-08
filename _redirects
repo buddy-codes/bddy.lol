@@ -1,1 +1,3 @@
-/test http://example.com 200
+/home301  /  301
+/home302  /  302
+/querystrings  /?query=string  301
