@@ -1,11 +1,14 @@
 import Head from "./components/head";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [dev, setDev] = useState();
-  if (window.location.href.includes("dev")) {
-    setDev(true);
-  }
+
+  useEffect(() => {
+    if (window.location.href.includes("dev")) {
+      setDev(true);
+    }
+  }, [])
 
   return (
     <>
